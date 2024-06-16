@@ -10,14 +10,46 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    body { background-color: #D5E1EF;}
+    main{
+      align-content: center;
+      justify-items: center;
+    }
+    .center{
+      margin: auto;
+    }
+    #component { background-color: white;
+      max-width: 320px;
+      text-align: center;
+      border-radius: 10px;
+      padding:15px;
+      font-family: Outfit;
+    }
+    #component img{
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+      border-radius: 10px;
+    }
+    #component h2{
+      padding: 0 20px;
+      color: hsl(218, 44%, 22%);
+      font-weight: 700;
+    }
     
+    #component p {
+      color: hsl(220, 15%, 55%);
+      padding: 0 30px;
+      font-weight: 400;
+    }
   </style>
 </head>
 <body>
   <main>
-    <div id="component">
+    <div id="component" class="center">
       <img src="images/image-qr-code.png" alt="qr code">
       <h2>Improve your front-end skills by building projects</h2>
       <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
