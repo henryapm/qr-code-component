@@ -15,22 +15,26 @@
     .attribution a { color: hsl(228, 45%, 44%); }
     body { background-color: #D5E1EF;}
     main{
-      align-content: center;
-      justify-items: center;
+      height: 100vh;
     }
     .center{
-      margin: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
-    #component { background-color: white;
-      max-width: 320px;
+    #component {
+      background-color: white;
+      width: 320px;
+      height: 497px;
       text-align: center;
-      border-radius: 10px;
-      padding:15px;
+      border-radius: 20px;
       font-family: Outfit;
     }
     #component img{
-      height: 100%;
-      width: 100%;
+      width: 288px;
+      height: 288px;
+      margin-top: 15px;
       object-fit: contain;
       border-radius: 10px;
     }
@@ -49,11 +53,11 @@
 </head>
 <body>
   <main>
-    <div id="component" class="center">
+    <section id="component" class="center">
       <img src="images/image-qr-code.png" alt="qr code">
       <h2>Improve your front-end skills by building projects</h2>
       <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-    </div>
+    </section>
   </main>
     
   <div class="attribution">
