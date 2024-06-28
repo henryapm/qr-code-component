@@ -59,5 +59,5 @@ I'd like to keep a focus on developing my css and html knowledge, specially the 
 
 ## Author
 
-- Website - [Henry Paredes](https://www.henryapm.github.io)
+- Temporary Website - [Henry Paredes](https://www.henryapm.github.io)
 - Frontend Mentor - [@henryapm](https://www.frontendmentor.io/profile/henryapm)
